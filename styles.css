@@ -1,0 +1,47 @@
+body {
+    font-family:arial;
+  }
+  
+  .main-image{
+    border: solid 4px black;
+    border-radius: 50%;
+  }
+  
+  
+  h1 {
+    background: red;
+    padding: 2px;
+    font-size: 50px ;
+
+  }
+  h2 {
+      background: black;
+      font-size: 30px;
+      color: white;
+
+  }
+ .container {
+    position: relative; 
+    text-align: center;
+    color: black; 
+  }
+ 
+
+  * {
+    box-sizing: border-box;
+  }
+  
+.col-1 {width: 33.33%;}
+.col-2 {width: 33.33%;}
+.col-3 {width: 33.33%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+  }
+
+  
+
+
+
